@@ -15,10 +15,6 @@ class Persona {
 }
 
 
-
-
-
-
 class Studente extends Persona{                   // Ciò vuol dire che Studente conterrà tutte le proprietà di Persona
     constructor(nome, cognome, eta, dipartimento){
         super(nome,cognome,eta);                 // Con la keyword super richiamo il costruttore della classe che sta sopra
